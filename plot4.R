@@ -3,7 +3,7 @@ tdata <- read.table("household_power_consumption.txt",header=T,sep=";")
 as.Date(tdata[,"Date"],"dd/mm/yyyy")
 sdata <- subset(tdata,Date %in% c("1/2/2007","2/2/2007"))
 
-# plot 3
+# plot 4
 
 Sys.setlocale("LC_TIME", "C")
 
